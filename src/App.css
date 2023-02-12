@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #0D1117;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  max-width: 1300px;
+  padding: 30px;
+ margin: 0 auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Section__Box{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+.img{
+  border-radius: 50%;
+  max-width: 330px;
+  height: 330px;
+}
+.name{
+color: #ffffff; 
+opacity: 0.4;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+.textInput{
+  color: #ffffff; 
+  opacity: 0.4;
+  max-width: 330px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+.Box_Time{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.little_box{
+  display: flex;
+  align-items: center;
 }
+.title_User{
+  color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-left: 8px;
+  line-height: 0;
+}
+.User_Name{
+  color: #ffffff;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bio{
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 19px;
+}
+.linkfolow{
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  opacity: 0.4;
+  
+}
+.linkfolow:hover{
+color: rgb(110, 49, 216);
+}
+.linkfolow + .linkfolow{
+  margin-left: 15px;
 }

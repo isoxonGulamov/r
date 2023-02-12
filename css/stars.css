@@ -1,0 +1,92 @@
+.btnCreate {
+  padding: 9px 17px;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.edr {
+  color: #fff;
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.Header__stars {
+  width: 886px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.uy {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0px;
+  background-color: #161B22;
+  color: #fff;
+  padding: 10px;
+}
+
+.ed {
+  background-color: #0D1117;
+}
+
+.input6 {
+  background-color: #010409;
+  width: 330px;
+  padding: 6px;
+  border-radius: 8px;
+  color: blue;
+}
+
+.input7 {
+  margin-top: 10px;
+  background-color: #010409;
+  width: 330px;
+  padding: 20px;
+  border-radius: 8px;
+  color: blue;
+}
+
+.btnCreate2 {
+  padding: 9px 120px;
+  margin-top: 14px;
+  background-color: green;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.Star__text-per {
+  color: #fff;
+  font-size: 20px;
+}
+
+.Menu_Star-box {
+  width: 886px;
+  border: 2px solid #21262D;
+  border-radius: 8px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.Menu_Star-box:hover {
+  background-color: #404957;
+}
+
+.ty {
+  position: absolute;
+  color: #fff;
+  top: 72%;
+}/*# sourceMappingURL=stars.css.map */

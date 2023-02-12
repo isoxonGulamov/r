@@ -1,0 +1,19 @@
+.Footer_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.line3 {
+  width: 1300px;
+  height: 2px;
+  display: inline-block;
+  background-color: #21262D;
+}/*# sourceMappingURL=footer.css.map */
